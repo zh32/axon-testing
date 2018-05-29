@@ -1,0 +1,5 @@
+/home/tge/repositories/axontesting/src/main/java/de/zh32/axontesting/command/EditProductTextsCommand.java
+/home/tge/repositories/axontesting/src/main/java/de/zh32/axontesting/event/ProductCreatedEvent.java
+/home/tge/repositories/axontesting/src/main/java/de/zh32/axontesting/Product.java
+/home/tge/repositories/axontesting/src/main/java/de/zh32/axontesting/event/TextsEditedEvent.java
+/home/tge/repositories/axontesting/src/main/java/de/zh32/axontesting/command/CreateProductCommand.java

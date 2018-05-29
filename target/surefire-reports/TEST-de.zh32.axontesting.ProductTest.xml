@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="de.zh32.axontesting.ProductTest" time="0.214" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-jdk/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.172-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/tge/repositories/axontesting"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/tge/repositories/axontesting"/>
+    <property name="java.runtime.version" value="1.8.0_172-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-jdk/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/opt/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/opt/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.16.8-1-ARCH"/>
+    <property name="library.jansi.path" value="/opt/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/tge"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="tge"/>
+    <property name="java.class.path" value="/opt/maven/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-jdk/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="de"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_172"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-jdk/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-jdk/jre/lib/resources.jar:/usr/lib/jvm/java-8-jdk/jre/lib/rt.jar:/usr/lib/jvm/java-8-jdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-jdk/jre/lib/jsse.jar:/usr/lib/jvm/java-8-jdk/jre/lib/jce.jar:/usr/lib/jvm/java-8-jdk/jre/lib/charsets.jar:/usr/lib/jvm/java-8-jdk/jre/lib/jfr.jar:/usr/lib/jvm/java-8-jdk/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/opt/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="de.zh32.axontesting.ProductTest" name="can_create_product" time="0.206">
+    <error message="An Exception occurred while reconstructing the Aggregate from given and published events. This may be an indication that the aggregate cannot be recreated from its events." type="org.axonframework.test.FixtureExecutionException">org.axonframework.test.FixtureExecutionException: An Exception occurred while reconstructing the Aggregate from given and published events. This may be an indication that the aggregate cannot be recreated from its events.
+	at org.axonframework.test.aggregate.AggregateTestFixture.detectIllegalStateChanges(AggregateTestFixture.java:317)
+	at org.axonframework.test.aggregate.AggregateTestFixture.when(AggregateTestFixture.java:262)
+	at org.axonframework.test.aggregate.AggregateTestFixture.when(AggregateTestFixture.java:249)
+	at de.zh32.axontesting.ProductTest.can_create_product(ProductTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.axonframework.eventsourcing.IncompatibleAggregateException: Aggregate identifier must be non-null after applying an event. Make sure the aggregate identifier is initialized at the latest when handling the creation event.
+	at org.axonframework.eventsourcing.EventSourcedAggregate.publish(EventSourcedAggregate.java:154)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at org.axonframework.eventsourcing.EventSourcedAggregate.lambda$initializeState$0(EventSourcedAggregate.java:182)
+	at org.axonframework.commandhandling.model.inspection.AnnotatedAggregate.lambda$execute$2(AnnotatedAggregate.java:229)
+	at org.axonframework.commandhandling.model.AggregateLifecycle.lambda$execute$3(AggregateLifecycle.java:199)
+	at org.axonframework.commandhandling.model.AggregateLifecycle.executeWithResult(AggregateLifecycle.java:166)
+	at org.axonframework.commandhandling.model.AggregateLifecycle.execute(AggregateLifecycle.java:198)
+	at org.axonframework.commandhandling.model.inspection.AnnotatedAggregate.execute(AnnotatedAggregate.java:229)
+	at org.axonframework.eventsourcing.EventSourcedAggregate.initializeState(EventSourcedAggregate.java:179)
+	at org.axonframework.eventsourcing.EventSourcingRepository.doLoadWithLock(EventSourcingRepository.java:215)
+	at org.axonframework.eventsourcing.EventSourcingRepository.doLoadWithLock(EventSourcingRepository.java:45)
+	at org.axonframework.commandhandling.model.LockingRepository.doLoad(LockingRepository.java:162)
+	at org.axonframework.commandhandling.model.LockingRepository.doLoad(LockingRepository.java:49)
+	at org.axonframework.commandhandling.model.AbstractRepository.lambda$load$7(AbstractRepository.java:116)
+	at java.util.HashMap.computeIfAbsent(HashMap.java:1127)
+	at org.axonframework.commandhandling.model.AbstractRepository.load(AbstractRepository.java:115)
+	at org.axonframework.test.aggregate.AggregateTestFixture$IdentifierValidatingRepository.load(AggregateTestFixture.java:451)
+	at org.axonframework.test.aggregate.AggregateTestFixture.detectIllegalStateChanges(AggregateTestFixture.java:302)
+	... 33 more
+</error>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</system-err>
+  </testcase>
+  <testcase classname="de.zh32.axontesting.ProductTest" name="cant_create_product_if_already_exists" time="0.008">
+    <error message="An Exception occurred while reconstructing the Aggregate from given and published events. This may be an indication that the aggregate cannot be recreated from its events." type="org.axonframework.test.FixtureExecutionException">org.axonframework.test.FixtureExecutionException: An Exception occurred while reconstructing the Aggregate from given and published events. This may be an indication that the aggregate cannot be recreated from its events.
+	at org.axonframework.test.aggregate.AggregateTestFixture.detectIllegalStateChanges(AggregateTestFixture.java:317)
+	at org.axonframework.test.aggregate.AggregateTestFixture.when(AggregateTestFixture.java:262)
+	at org.axonframework.test.aggregate.AggregateTestFixture.when(AggregateTestFixture.java:249)
+	at de.zh32.axontesting.ProductTest.cant_create_product_if_already_exists(ProductTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.axonframework.eventsourcing.IncompatibleAggregateException: Aggregate identifier must be non-null after applying an event. Make sure the aggregate identifier is initialized at the latest when handling the creation event.
+	at org.axonframework.eventsourcing.EventSourcedAggregate.publish(EventSourcedAggregate.java:154)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at org.axonframework.eventsourcing.EventSourcedAggregate.lambda$initializeState$0(EventSourcedAggregate.java:182)
+	at org.axonframework.commandhandling.model.inspection.AnnotatedAggregate.lambda$execute$2(AnnotatedAggregate.java:229)
+	at org.axonframework.commandhandling.model.AggregateLifecycle.lambda$execute$3(AggregateLifecycle.java:199)
+	at org.axonframework.commandhandling.model.AggregateLifecycle.executeWithResult(AggregateLifecycle.java:166)
+	at org.axonframework.commandhandling.model.AggregateLifecycle.execute(AggregateLifecycle.java:198)
+	at org.axonframework.commandhandling.model.inspection.AnnotatedAggregate.execute(AnnotatedAggregate.java:229)
+	at org.axonframework.eventsourcing.EventSourcedAggregate.initializeState(EventSourcedAggregate.java:179)
+	at org.axonframework.eventsourcing.EventSourcingRepository.doLoadWithLock(EventSourcingRepository.java:215)
+	at org.axonframework.eventsourcing.EventSourcingRepository.doLoadWithLock(EventSourcingRepository.java:45)
+	at org.axonframework.commandhandling.model.LockingRepository.doLoad(LockingRepository.java:162)
+	at org.axonframework.commandhandling.model.LockingRepository.doLoad(LockingRepository.java:49)
+	at org.axonframework.commandhandling.model.AbstractRepository.lambda$load$7(AbstractRepository.java:116)
+	at java.util.HashMap.computeIfAbsent(HashMap.java:1127)
+	at org.axonframework.commandhandling.model.AbstractRepository.load(AbstractRepository.java:115)
+	at org.axonframework.test.aggregate.AggregateTestFixture$IdentifierValidatingRepository.load(AggregateTestFixture.java:451)
+	at org.axonframework.test.aggregate.AggregateTestFixture.detectIllegalStateChanges(AggregateTestFixture.java:302)
+	... 33 more
+</error>
+  </testcase>
+</testsuite>
